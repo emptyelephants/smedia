@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="./scripts/loaderBar.js"></script>
+  <script src="./scripts/flashyImage.js"></script>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>S Media Code Challenge</title>
+</head>
+<body>
+  <div class="main-body container my-4 mx-auto p-4">
+    <h1 class="text-center">Progress Bar</h1>
+    <div class="progress-bar-container py-5">
+      <div id="bar-fill" class="bar border rounded">
+        <div class="bar-fill">
+        </div>
+        <span class="bar-percent">0%</span>
+      </div>
+      <div class="bar-text" id="progress-text">
+        <span>Establishing Connection</span>
+      </div>
+    </div>
+    <div class="loaded-form py-5">
+      <form id="not-real-form">
+        <div class="form-row">
+          <div class="col">
+            <label>First Name</label>
+            <input type="text" class="form-control" placeholder="John">
+          </div>
+          <div class="col">
+              <label>Last Name</label>
+            <input type="text" class="form-control" placeholder="Smith">
+          </div>
+        </div>
+        <div class="text-center">
+        <button type="submit" class="btn btn-primary my-3">Sign in</button>
+        </div>
+      </form>
+    </div>
+    
+    <h1 class="text-center">Flashy Image</h1>
+    <div class="flashy-image-container d-flex justify-content-center py-5">
+      <div class="flashy-image-outer rounded-circle border border-primary">
+      <div id="faces-target" class="flashy-image-inner rounded-circle"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</htm

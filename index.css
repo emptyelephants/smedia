@@ -1,0 +1,87 @@
+html {
+  background: #d2dcff;
+}
+
+.main-body.container{
+  background: #fff;
+  box-shadow: 2px 2px 20px 6px #9a9a9a8c;
+
+}
+
+body {
+  background: transparent !important;
+}
+
+.bar {
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+div.bar-fill {
+  width: 0%;
+  height: 100%;
+  border-bottom: 25px solid #73D5AC;
+  background: #44B283
+}
+
+span.bar-percent {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+
+.fadeOut {
+  animation:fadeOut 1s ease-in;
+  -webkit-animation:fadeOut 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fadeIn {
+  animation:fadeIn 1s linear;
+  -webkit-animation:fadeIn 1s linear;
+  animation-fill-mode: forwards;
+}
+
+.loaded-form {
+  opacity:0;
+  display:none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.flashy-image-outer {
+  height: 150px;
+  width: 150px;
+}
+
+.flashy-image-inner {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  transition: background-image .05s ease-out;
+  -webkit-transition: background-image .05s ease-out;
+  -moz-transition: background-image .05s ease-out;
+  -ms-transition: background-image .05s ease-out;
+  -o-transition: background-image .05s ease-out;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
